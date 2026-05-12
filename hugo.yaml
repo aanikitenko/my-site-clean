@@ -6,3 +6,10 @@ module:
     - path: github.com/HugoBlox/hugo-blox-builder/modules/blox-bootstrap/v5
 ignoreLogs:
   - 'missing-icon-hero-user'
+
+# Разрешаем доступ к переменной WC_POST_CSS, чтобы исправить ошибку getenv [citation:1][citation:5]
+security:
+  funcs:
+    getenv:
+      - ^HUGO_
+      - ^WC_
