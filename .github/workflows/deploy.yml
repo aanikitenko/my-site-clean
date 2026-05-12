@@ -1,42 +1,20 @@
-name: Deploy to GitHub Pages
+name: Deploy Hugo
 
 on:
   push:
-    branches: [ "main" ]
-
-permissions:
-  contents: read
-  pages: write
-  id-token: write
+    branches: [ main ]
 
 jobs:
-  build:
+  deploy:
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout
-        uses: actions/checkout@v4  # Обновлено до v4
-      
-      - name: Setup Hugo
-        uses: peaceiris/actions-hugo@v3
+      - uses: actions/checkout@v4
+      - uses: peaceiris/actions-hugo@v3
         with:
           hugo-version: '0.119.0'
-          extended: true
-          
-      - name: Build
-        run: hugo --minify
-        
-      - name: Upload artifact
-        uses: actions/upload-pages-artifact@v3  # Обновлено до версии, совместимой с v4
+      - run: hugo --minify
+      - uses: peaceiris/actions-gh-pages@v4
         with:
-          path: ./public
-
-  deploy:
-    environment:
-      name: github-pages
-      url: ${{ steps.deployment.outputs.page_url }}
-    runs-on: ubuntu-latest
-    needs: build
-    steps:
-      - name: Deploy to GitHub Pages
-        id: deployment
-        uses: actions/deploy-pages@v4  # Обновлено до v4
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./public
+          publish_branch: gh-pages
