@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>ci/cd | Арина Никитенко</title><link>https://aanikitenko.github.io/my-site-clean/tags/ci/cd/</link><atom:link href="https://aanikitenko.github.io/my-site-clean/tags/ci/cd/index.xml" rel="self" type="application/rss+xml"/><description>ci/cd</description><generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>ru</language><image><url>https://aanikitenko.github.io/my-site-clean/media/icon_hua2ec155b4296a9c9791d015323e16eb5_11927_512x512_fill_box_center_3.png</url><title>ci/cd</title><link>https://aanikitenko.github.io/my-site-clean/tags/ci/cd/</link></image><item><title>Git и CI/CD: основы современной разработки</title><link>https://aanikitenko.github.io/my-site-clean/git-cicd/</link><pubDate>Fri, 20 Mar 2026 00:00:00 +0000</pubDate><guid>https://aanikitenko.github.io/my-site-clean/git-cicd/</guid><description>&lt;h1 id="git-и-cicd-основы-современной-разработки">Git и CI/CD: основы современной разработки&lt;/h1>
+&lt;p>В современной разработке программного обеспечения невозможно представить рабочий процесс без систем контроля версий и автоматизации развертывания. Давайте разберёмся, что это такое и почему это важно.&lt;/p>
+&lt;h2 id="что-такое-git">Что такое Git?&lt;/h2>
+&lt;p>&lt;strong>Git&lt;/strong> — это распределённая система контроля версий, созданная Линусом Торвальдсом в 2005 году. Она позволяет:&lt;/p>
+&lt;ul>
+&lt;li>Отслеживать изменения в коде&lt;/li>
+&lt;li>Работать над проектом в команде&lt;/li>
+&lt;li>Возвращаться к предыдущим версиям&lt;/li>
+&lt;li>Создавать отдельные ветки для новых функций&lt;/li>
+&lt;/ul>
+&lt;h3 id="основные-команды-git">Основные команды Git&lt;/h3>
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-bash" data-lang="bash">&lt;span style="display:flex;">&lt;span>git init &lt;span style="color:#75715e"># инициализация репозитория&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>git add . &lt;span style="color:#75715e"># добавление файлов в коммит&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>git commit -m &lt;span style="color:#e6db74">&amp;#34;сообщение&amp;#34;&lt;/span> &lt;span style="color:#75715e"># создание коммита&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>git push &lt;span style="color:#75715e"># отправка изменений на сервер&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>git pull &lt;span style="color:#75715e"># получение изменений с сервера&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>git branch &lt;span style="color:#75715e"># просмотр веток&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>git merge &lt;span style="color:#75715e"># слияние веток&lt;/span>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div></description></item></channel></rss>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Еженедельный обзор | Арина Никитенко</title><link>https://aanikitenko.github.io/my-site-clean/categories/%D0%B5%D0%B6%D0%B5%D0%BD%D0%B5%D0%B4%D0%B5%D0%BB%D1%8C%D0%BD%D1%8B%D0%B9-%D0%BE%D0%B1%D0%B7%D0%BE%D1%80/</link><atom:link href="https://aanikitenko.github.io/my-site-clean/categories/%D0%B5%D0%B6%D0%B5%D0%BD%D0%B5%D0%B4%D0%B5%D0%BB%D1%8C%D0%BD%D1%8B%D0%B9-%D0%BE%D0%B1%D0%B7%D0%BE%D1%80/index.xml" rel="self" type="application/rss+xml"/><description>Еженедельный обзор</description><generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>ru</language><lastBuildDate>Fri, 20 Mar 2026 00:00:00 +0000</lastBuildDate><image><url>https://aanikitenko.github.io/my-site-clean/media/icon_hua2ec155b4296a9c9791d015323e16eb5_11927_512x512_fill_box_center_3.png</url><title>Еженедельный обзор</title><link>https://aanikitenko.github.io/my-site-clean/categories/%D0%B5%D0%B6%D0%B5%D0%BD%D0%B5%D0%B4%D0%B5%D0%BB%D1%8C%D0%BD%D1%8B%D0%B9-%D0%BE%D0%B1%D0%B7%D0%BE%D1%80/</link></image><item><title>Обзор прошедшей недели: 14–20 марта 2026</title><link>https://aanikitenko.github.io/my-site-clean/week-review/</link><pubDate>Fri, 20 Mar 2026 00:00:00 +0000</pubDate><guid>https://aanikitenko.github.io/my-site-clean/week-review/</guid><description>&lt;h2 id="что-произошло-за-эту-неделю">Что произошло за эту неделю?&lt;/h2>
+&lt;p>Эта неделя была насыщенной и продуктивной. Вот основные моменты:&lt;/p>
+&lt;h3 id="-технические-достижения">🔧 Технические достижения&lt;/h3>
+&lt;ul>
+&lt;li>Успешно настроил локальную среду разработки для Hugo&lt;/li>
+&lt;li>Разобрался с установкой TailwindCSS и Hugo Extended&lt;/li>
+&lt;li>Запустил свой первый сайт на HugoBlox&lt;/li>
+&lt;/ul>
+&lt;h3 id="-учёба">📚 Учёба&lt;/h3>
+&lt;ul>
+&lt;li>Изучил основы работы с Git и GitHub&lt;/li>
+&lt;li>Познакомился с принципами CI/CD&lt;/li>
+&lt;li>Начал разбираться в структуре Hugo-проектов&lt;/li>
+&lt;li>Мало спала, много училась&lt;/li>
+&lt;li>Не сдала лабу на C++&lt;/li>
+&lt;li>Узнала, что унас будет коллоквиум по мат анализу&lt;/li>
+&lt;/ul>
+&lt;h3 id="-планы-на-следующую-неделю">🎯 Планы на следующую неделю&lt;/h3>
+&lt;ul>
+&lt;li>Добавить больше контента на сайт&lt;/li>
+&lt;li>Настроить кастомные стили&lt;/li>
+&lt;li>Изучить возможности Hugo Blox Builde&lt;/li>
+&lt;li>Написать кр по китайскому&lt;/li>
+&lt;li>Защитить лабу&lt;/li>
+&lt;li>Подготовка к коллоквиуму&lt;/li>
+&lt;/ul>
+&lt;hr></description></item></channel></rss>
