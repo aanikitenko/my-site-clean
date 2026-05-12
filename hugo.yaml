@@ -1,0 +1,8 @@
+baseURL: https://aanikitenko.github.io/my-site-clean/
+languageCode: ru
+title: Арина Никитенко
+module:
+  imports:
+    - path: github.com/HugoBlox/hugo-blox-builder/modules/blox-bootstrap/v5
+ignoreLogs:
+  - 'missing-icon-hero-user'

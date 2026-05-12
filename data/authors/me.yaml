@@ -1,0 +1,25 @@
+title: Арина Никитенко
+role: Студентка
+bio: Меня зовут Арина Никитенко. Мне 18 лет. Учусь в РУДН на математика-программиста.
+organizations:
+  - name: РУДН
+    url: https://rudn.ru
+social:
+  - icon: envelope
+    link: mailto:arina.nikitenko2007@mail.ru
+  - icon: brands/github
+    link: https://github.com/aanikitenko
+  - icon: academicons/google-scholar
+    link: https://scholar.google.com/
+  - icon: academicons/orcid
+    link: https://orcid.org/
+  - icon: academicons/researchgate
+    link: https://researchgate.net/
+education:
+  - course: Математика и компьютерные науки
+    institution: РУДН
+    year: 2025-2029
+interests:
+  - Математика
+  - Программирование
+  - Лыжные гонки
